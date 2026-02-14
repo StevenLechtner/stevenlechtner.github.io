@@ -2613,6 +2613,19 @@ input, select, textarea {
 				width: 100%;
 			}
 
+.image.no-crop {
+  background: none !important;
+}
+
+.image.no-crop img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  /* transform: translateY(50%); */
+}
+
+
 /* List */
 
 	ol {
