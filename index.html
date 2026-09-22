@@ -22,7 +22,7 @@
 							<li><a href="#intro">Introduction</a></li>
 							<li><a href="#hololens">Fellowship Projects</a></li>
 							<li><a href="#carrots">Carrots in Space</a></li>
-							<li><a href="#pitcher">Pitch by Picture</a></li>
+							<li><a href="#pitcher">Pitch Painter</a></li>
 							<li><a href="#zelda">The Legend of Zelda - Remaster</a></li>
 							<li><a href="#memory">Memory Adventure: A Platforming Game</a></li>
                             <li><a href="#zero">Get in Touch</a></li>
@@ -51,6 +51,10 @@
 											<i class="fa fa-phone"></i>
 											<a href="tel:734-478-1358">734-478-1358</a>
 										</li>
+										<li>
+											<i class="fab fa-linkedin"></i>
+											<a href="https://www.linkedin.com/in/steven-lechtner/">LinkedIn</a>
+										</li>
                                     </ul>
                                 </div>
                             </section>
@@ -61,6 +65,13 @@
 				<!-- Introduction -->
 					<section id="intro" class="wrapper style1">
 						<div class="inner">
+							<!-- <div style="display: flex; align-items: flex-start; gap: 20px;">
+								<h1>Resume</h1>
+								<iframe src="assets/Steven Lechtner Resume.pdf"
+										width="50%"
+										height="650px">
+								</iframe>
+							</div>
 							<h1>Quick Overview</h1>
 							<p> These projects showcase my passion and ability to produce meaningful solutions
 								in both engaging and practical ways. Ranging from programming languages such as C#, C++,
@@ -75,7 +86,42 @@
 							</p>
 							<ul class="actions">
 								<li><a href="#hololens" class="button scrolly">Learn more</a></li>
-							</ul>
+							</ul> -->
+							<div style="display: flex; align-items: flex-start; gap: 40px;">
+
+								<!-- Left side -->
+								<div style="width: 50%;">
+									<h1>Quick Overview</h1>
+									<p>
+										These projects showcase my passion and ability to produce meaningful solutions
+										in both engaging and practical ways. Ranging from programming languages such as C#, C++,
+										and Python, using technologies like the Unity Game Engine and VS Code,
+										you can view a variety of my solutions below and even try out a few of them yourself!
+
+										<h1>Unity</h1>
+										Unity provides tools and systems that make game design more intuitive.
+										Unity includes an integrated drag-and-drop workflow for building components on
+										game objects. C# complements the Unity reality engine well. Since C# is
+										an object-oriented programming language, it is easily used to implement classes and
+										inheritance used to build game objects with unique features that Unity can display.
+									</p>
+
+									<ul class="actions">
+										<li>
+											<a href="#hololens" class="button scrolly">Learn more</a>
+										</li>
+									</ul>
+								</div>
+
+								<!-- Right side -->
+								<div style="width: 50%;">
+									<iframe src="assets/Steven Lechtner Resume.pdf"
+											width="100%"
+											height="650px">
+									</iframe>
+								</div>
+
+							</div>
 						</div>
 					</section>
 
@@ -276,15 +322,18 @@
 							<a href="https://www.mlb.com" class="image no-crop"><img src="./images/the_hit.png" alt="" data-position="top center"/></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Pitch by Picture (Live Twitter bot)</h2>
+									<h2>Pitch Painter (Live Meta Threads Bot)</h2>
 									<p>
 										A live and accurate pitch-by-pitch scorebug of the current situation in any MLB
-										game with Python, with the ability to live tweet the generated scorebug.
+										game with Python, with the ability to live post the generated scorebug to
+										Threads. Backed by Python with the PyQt library's GUI for application features.
 										Additional support to retroactively report each pitch from a completed game,
 										saving the output to a file. Scorebug includes teams, score, inning, count
-										(balls-strikes), baserunners, outs, pitcher, and pitch count. The outcome of an
-										at bat can be printed as well. Utilizing data via MLB Stats API, with no intent
-										to distribute for profit.
+										(balls-strikes), baserunners, outs, pitcher, and pitch count. Game 
+										descriptions such as the outcome of a pitch or an at bat can be printed in the 
+										output console as well. Command line arguments and application settings allow
+										for a completely user friendly experience. Utilizing data via MLB Stats API, 
+										with no intent to distribute for profit.
 									</p>
 									<p>
 										Use of MLB data subject to a copyright notice found <a href="https://gdx.mlb.com/components/copyright.txt">here</a>
