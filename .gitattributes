@@ -2,3 +2,6 @@
 * text=auto
 /carrots_in_space/Mac.zip filter=lfs diff=lfs merge=lfs -text
 /carrots_in_space/Windows.zip filter=lfs diff=lfs merge=lfs -text
+videos/pitch_painter filter=lfs diff=lfs merge=lfs -text
+videos/* filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
